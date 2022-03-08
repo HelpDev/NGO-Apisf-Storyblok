@@ -25,10 +25,9 @@
       :okButtonText="$t('donations.ok')"
       >{{
         settings.bank &&
-          $t('donations.text', {
-            bank: settings.bank,
-            bank2: settings.bank2
-          })
+        $t('donations.text', {
+          bank: settings.bank
+        })
       }}</t-dialog
     >
   </div>
