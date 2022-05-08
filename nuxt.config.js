@@ -34,11 +34,11 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    '~/plugins/story-components',
-    '~/plugins/locale',
-    '~/plugins/tailwind-components',
-    '~/plugins/composition-api.js',
-    '~/plugins/storyblok-rich-text-renderer.js'
+    'node_modules/components-helpdev-storyblok/plugins/story-components',
+    'node_modules/components-helpdev-storyblok/plugins/locale',
+    'node_modules/components-helpdev-storyblok/plugins/tailwind-components',
+    'node_modules/components-helpdev-storyblok/plugins/composition-api.js',
+    'node_modules/components-helpdev-storyblok/plugins/storyblok-rich-text-renderer.js'
   ],
   /*
    ** Auto import components
