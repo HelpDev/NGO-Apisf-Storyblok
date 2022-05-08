@@ -1,7 +1,7 @@
 {
-  "name": "ngo-aethec-storyblok",
+  "name": "ngo-apisf-storyblok",
   "version": "1.4.0",
-  "description": "Storyblok project for Aethec fork from NeedU 1.0.7",
+  "description": "Storyblok project for Apisf fork from NeedU 1.0.7",
   "author": "HelpDev",
   "private": true,
   "scripts": {
