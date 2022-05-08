@@ -20,8 +20,7 @@
             v-for="menuItem in menu"
             :key="menuItem.text"
             :to="localePath(menuItem.link)"
-            class="text-base font-medium text-white hover:text-primary-700
-            text-center hover:border-primary-700 mr-3 lg:mr-0"
+            class="text-base font-medium text-white hover:text-primary-700 text-center hover:border-primary-700 mr-3 lg:mr-0"
           >
             {{ $t(menuItem.text) }}
           </nuxt-link>
@@ -107,7 +106,7 @@ export default {
   setup() {
     const menu = [
       // { link: 'projects', text: 'menu.projects' },
-      // { link: 'collaborate', text: 'menu.collaborate' },
+      { link: 'collaborate', text: 'menu.collaborate' },
       { link: 'team', text: 'menu.team' },
       // { link: 'articles', text: 'menu.articles' },
       { link: 'contact', text: 'menu.contact' }
